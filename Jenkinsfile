@@ -3,7 +3,7 @@ pipeline {
     agent any
 	
 	environment {
-            bucketName = "test-cf-bucket-1117"
+            bucketName = "test-cf-bucket-geraldine"
 			stackFileName = "wp.yaml"
 			VpcId = "vpc-05d5f8515bdb0950a"
 			PubSub1 = "subnet-0331d497e6a04fb5e"
