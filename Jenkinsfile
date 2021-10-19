@@ -3,6 +3,7 @@ pipeline {
     agent any
 	
 	environment {
+	    AWS_REGION = 'us-east-1'
             bucketName = "test-cf-bucket-geraldine"
 			stackFileName = "wp.yaml"
 			VpcId = "vpc-0c0aaa01e7b925bed"
